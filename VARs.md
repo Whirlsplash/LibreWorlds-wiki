@@ -1,0 +1,29 @@
+The below define property IDs, used by packets that use property lists:
+
+    public static final byte VAR_APPNAME = 1;
+    public static final byte VAR_USERNAME = 2;
+    public static final byte VAR_PROTOCOL = 3;
+    public static final byte VAR_ERROR = 4;
+    public static final byte VAR_CHANNEL = 5;
+    public static final byte VAR_BITMAP = 5;
+    public static final byte VAR_PASSWORD = 6;
+    public static final byte VAR_AVATARS = 7;
+    public static final byte VAR_UPDATETIME = 8;
+    public static final byte VAR_CLIENT = 9;
+    public static final int VAR_SERIAL = 10;
+    public static final int VAR_EMAIL = 11;
+    public static final int VAR_LOGONOFF = 12;
+    public static final int VAR_DURATION = 13;
+    public static final int VAR_GUEST = 14;
+    public static final int VAR_SERVERTYPE = 15;
+    public static final int VAR_BIZCARD = 16;
+    public static final int VAR_NEW_PASSWD = 20;
+    public static final int VAR_PRIV = 22;
+    public static final byte VAR_ASLEEP = 23;
+    public static final byte VAR_EXTERNAL_HTTP_SERVER = 24;
+    public static final byte VAR_SCRIPT_SERVER = 25;
+    public static final byte VAR_SMTP_SERVER = 26;
+    public static final byte VAR_MAIL_DOMAIN = 27;
+    public static final byte VAR_NEW_USERNAME = 28;
+    public static final byte VAR_INTERNAL_HTTP_SERVER = 29;
+    public static final byte VAR_INVENTORY = 32;

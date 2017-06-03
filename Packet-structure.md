@@ -1,1 +1,2 @@
-Packet size: 1-2 bytes (2 byte packet size indicated by 0x80 bit being set, in which case size = (first byte - 1) * 256 + second byte)
+* Packet size: 1-2 bytes (2 byte packet size indicated by 0x80 bit being set, in which case size = (first byte - 1) * 256 + second byte)
+* ObjID: Either 1 byte, or if byte is 0, then a string. 254 is a special destination called "CO"

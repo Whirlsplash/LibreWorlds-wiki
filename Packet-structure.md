@@ -4,3 +4,5 @@
 * Packet data
 
 If the initial ObjID is "CO" (254), Packet data consists of ObjIDs followed by packet data for the packet type.
+
+WorldsString: 1 byte for remaining length in bytes, then the string in [Modified UTF-8 encoding](https://docs.oracle.com/javase/6/docs/api/java/io/DataInput.html#modified-utf-8)

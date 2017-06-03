@@ -1,0 +1,1 @@
+Packet size: 1-2 bytes (2 byte packet size indicated by 0x80 bit being set, in which case size = (first byte - 1) * 256 + second byte)

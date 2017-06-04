@@ -1,7 +1,7 @@
 * 0x01 = LONGLOC = Used for long movement and z-coordinate movement.
 * 0x02 = STATE?
 * 0x03 = PROP = Old-style property list, can be sent or received.
-* 0x04 = SHORTLOC = Movement deltas, not along z-axis.
+* 0x04 = SHORTLOC = Movement deltas, not along z-axis. Not sent by client.
 * 0x05 = ROOMCHNG = Indication of user changing rooms, includes new location within room
 * 0x06 = SESSINIT = Used by client to log in to a server, and server to acknowledge and provider more information. Uses old-style property list
 * 0x07 = SESSEXIT = Used by client to log off of a server, and server to acknowledge. Uses old-style property list.

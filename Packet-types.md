@@ -11,4 +11,6 @@
 * 0x0C = APPRACTR = Used by server to indicate a Drone should appear at a room (indicated with a u16), at x, y, z, dir.
 * 0x0D = REGOBJID = Used by server to associate a long Object ID with a short Object ID, to save bandwidth. These associations seem to be per connection. The object ID in the packet frame is not used for this, and is 0xFF (target connection).
 * 0x0E = TEXT = Used for chat. Includes an ObjID in the data itself, the ObjID in the packet frame is ignored.
-* 0x0F = PROPSET = 
+* 0x0F = PROPSET = Usually sent from client to server, although there is support for it to be sent server to client as a NOOP. This packet indicates a property change (e.g. avatar or sleep). It also can be sent for shared state, which can affect the objid it gets sent with. The packet format includes a string marked as "fromUser" but usually empty.
+* 0x10 = PROPUPD = Sent from server to client with a new-style property list to update properties on the given ObjID.
+* 0x11 = WHISPER = Whispering. Includes a sender ID, and uses frame's ObjID for destination.

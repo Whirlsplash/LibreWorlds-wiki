@@ -24,3 +24,6 @@
 * 0x1A = REDIRID = Sent from server to client to reassign room ID\<-\>room name mapping and point to a different RoomServer?
 * 0x1B = FINGREQ = Unused.
 * 0x1C = FINGREP = Unused.
+* 0x1D = BUDDYLISTUPDATE = Tell server to add or remove a buddy from its buddy list.
+* 0x1E = BUDDYLISTNOTIFY = Buddy came online or offline.
+* 0x1F = CHANNEL = Sent from client to change channels (dimensions?), but only when it was told to do so by the server in SESSINIT.

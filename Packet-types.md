@@ -10,3 +10,5 @@
 * 0x0B = DISAPPR = Used by server to indicate a Drone should disappear.
 * 0x0C = APPRACTR = Used by server to indicate a Drone should appear at a room (indicated with a u16), at x, y, z, dir.
 * 0x0D = REGOBJID = Used by server to associate a long Object ID with a short Object ID, to save bandwidth. These associations seem to be per connection. The object ID in the packet frame is not used for this, and is 0xFF (target connection).
+* 0x0E = TEXT = Used for chat. Includes an ObjID in the data itself, the ObjID in the packet frame is ignored.
+* 0x0F = PROPSET = 

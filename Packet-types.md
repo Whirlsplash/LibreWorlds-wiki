@@ -8,7 +8,7 @@
 | 0x06  | Server/Client |  SESSINIT  |  Used by client to log in to a server, and server to acknowledge and provider more information. Uses old-style property list |
 | 0x07  | Server/Client |  SESSEXIT  |  Used by client to log off of a server, and server to acknowledge. Uses old-style property list. |
 | 0x08  | Server  |  APPINIT  |  Usage unknown, does not seem to be sent by client. Modifies a state machine upon being received by client. Uses new-style property list. |
-| 0x0A  | Client |  PROPREQ  |  Request properties. May include a list of properties to request, but that functionality seems to be unused. |
+| [[0x0A|PROPREQ]]  | Client |  [[PROPREQ]]  |  Sent on connection to request properties (e.g. server type and protocol). May include a list of properties to request, but that functionality seems to be unused. |
 | 0x0B  | Server  |  DISAPPR  |  Indicate a Drone should disappear. |
 | 0x0C  | Server  |  APPRACTR  |  Indicate a Drone should appear at a room (indicated with a u16), at x, y, z, dir. |
 | 0x0D  | Server  |  REGOBJID  |  Associate a long Object ID with a short Object ID, to save bandwidth. These associations seem to be per connection. The object ID in the packet frame is not used for this, and is 0xFF (target connection). |

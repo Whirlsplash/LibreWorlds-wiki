@@ -17,7 +17,7 @@
 | 0x10  | Server  |  PROPUPD  |  Update properties on the given ObjID (with a new-style property list). |
 | 0x11  | Server/Client |  WHISPER  |  Whispering. Includes a sender ID, and uses frame's ObjID for destination. |
 | 0x12  | Server/Client |  TELEPORT  |  Sent to server for teleporting, sent from server for drones teleporting (includes entering and leaving). |
-| 0x14  | Client |  ROOMIDRQ  |  Request numeric room ID for room name (e.g. "GroundZero#ChatElevator<dimension-1>"). |
+| 0x14  | Client |  ROOMIDRQ  |  Request numeric room ID for room name (e.g. "GroundZero#ChatElevator\<dimension-1\>"). |
 | 0x15  | Server  |  ROOMID  |  Associate room name with numeric room ID. |
 | 0x16  | Client |  SUBSCRIB |  Subscribe to a room (with numeric room ID) at a location and a distance. |
 | 0x17  | Client |  UNSUBSCR  |  Unsubscribe from a room. |

@@ -23,9 +23,11 @@
 | Name | Position | Timezone |
 | - | - | - |
 | cake1234566 | World Builder/Avatar Crafting ||
+| Jimbly | World Builder ||
 
 # Quality Assurance
 
 | Name | Position | Timezone |
 | - | - | - |
 | ninworlds | Tester ||
+| Jimbly | Tester ||

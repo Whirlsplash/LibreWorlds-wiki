@@ -3,7 +3,6 @@
 | Name | Position | Timezone |
 | - | - | - |
 | coldsadgirl | Project Leader ||
-| latyfa | Public Awareness ||
 
 # Development
 
@@ -11,3 +10,10 @@
 | - | - | - |
 | CandyAngel | Perl/Reverse Engineering | UTC-0 (GMT/BST) |
 | Sgeo | Java/Reverse Engineering ||
+
+# User Experience
+
+| Name | Position | Timezone |
+| - | - | - |
+| cake1234566 | Public Awareness ||
+| latyfa | Public Awareness ||

@@ -11,6 +11,12 @@ Worlds generally uses the format described by [Java's DataInput](https://docs.or
 * Byte, Double, Long, Int, Float, Short: Self-explanatory
 * Arrays, vectors, maybenulls: Explained below 
 
+# Header and footer
+
+* Persister files begin with the String "PERSISTER Worlds, Inc." (remember the 3 bytes at beginning), followed by an integer representing persister format version (7 seems to be latest), followed by an object.
+
+* Persister files end with the String "END PERSISTER"
+
 # Objects
 
 Assuming empty class and object table, an object consists of an object ID (integer), a class ID (integer), class name (String), and then data as determined by the specific class.

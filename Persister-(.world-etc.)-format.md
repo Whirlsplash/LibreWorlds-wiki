@@ -23,6 +23,6 @@ Assuming empty class and object table, an object consists of an object ID (integ
 
 ## Example from GroundZero
 
-|"PERSISTER Worlds, Inc." | Persister version | Object ID | Class ID | Class name |
-|-------------------------|-------------------|-----------|----------|----------|------------|
+| "PERSISTER Worlds, Inc." | Persister version | Object ID | Class ID | Class name |
+| ------------------------ | ----------------- | --------- | -------- | ---------- |
 | 0x00 0x00 0x16 "PERSISTER Worlds, Inc." | 0x00 0x00 0x00 0x07 | 0x00 0x00 0x03 0x67 | 0x00 0x00 0x02 0xE6 | 0x00 0x00 0x16 "NET.worlds.scape.World" |

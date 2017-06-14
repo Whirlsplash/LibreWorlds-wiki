@@ -10,7 +10,7 @@ Worlds generally uses the format described by [Java's DataInput](https://docs.or
 * Boolean: 1 byte, 0x00 for false 0x01 for true.
 * Byte, Double, Long, Int, Float, Short: Self-explanatory
 * Arrays, vectors, maybenulls: Explained below 
-* Versions (not applicable to Persister version): Either an integer or non-existent (already interned/cached). When WorldsPlayer tries to retrieve a version, it uses a "cookie", usually but not necessarily corresponding to a class. If that cookie has been used to retrieve a version before, the next time a version corresponding to that cookie is read, it will always be the same version. That is, if the first Room was read as version 3 (hypothetically), the next Room will also be version 3, without another indication directly in the file.
+* "Version for X" (not applicable to Persister version): If a "Version for X" has already been seen, it is omitted. Otherwise, it is read as an integer. Note that X is usually, but not always, a class.
 
 # Header and footer
 

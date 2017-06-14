@@ -8,7 +8,7 @@
 
 | Name | Position | Timezone |
 | - | - | - |
-| cake1234566 | Public Awareness ||
+| cake1234566 | Public Awareness | UTC-5 (EST/EDT) |
 | latyfa | Public Awareness ||
 
 # Development
@@ -16,18 +16,18 @@
 | Name | Position | Timezone |
 | - | - | - |
 | CandyAngel | Perl/Reverse Engineering | UTC-0 (GMT/BST) |
-| Sgeo | Java/Reverse Engineering ||
+| Sgeo | Java/Reverse Engineering | UTC-5 (EST/EDT) |
 
 # Editor
 
 | Name | Position | Timezone |
 | - | - | - |
-| cake1234566 | World Builder/Avatar Crafting ||
+| cake1234566 | World Builder/Avatar Crafting | UTC-5 (EST/EDT) |
 | Jimbly | World Builder ||
 
 # Quality Assurance
 
 | Name | Position | Timezone |
 | - | - | - |
-| ninworlds | Tester ||
+| ninworlds | Tester | UTC-5 (EST/EDT) |
 | Jimbly | Tester ||

@@ -10,4 +10,4 @@ A World. Main object in .world files. Synonyms: "NET.worlds.network.World", "Wor
 | World <= 6 | String | Server URL, read in an "old" way. "UNSHARED" equivalent to null |
 | World == 2 | String | Unknown, discarded |
 | World >= 5 | Int | Timeout Age |
-| Worl
+| World == 6 | Boolean | Unknown, discarded |

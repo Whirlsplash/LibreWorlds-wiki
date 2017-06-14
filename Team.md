@@ -31,3 +31,8 @@
 | - | - | - |
 | ninworlds | Tester | UTC-5 (EST/EDT) |
 | Jimbly | Tester ||
+
+# System Operations (Sysops)
+| Name | Position | Timezone |
+| - | - | - |
+| Xyem | Team Leader | UTC-0 (GMT/BST) |

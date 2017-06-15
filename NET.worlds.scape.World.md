@@ -26,5 +26,5 @@ Note that as with all objects, there will first be an object ID, then a class ID
 | World == 13 | Boolean | Ad Cube Format Is Gif |
 | World == 13 | String | Ad Cube Base URL |
 | World == 13 | String | Default Ad Cube URL |
-| All | Explicit [[Hashtable|NET.worlds.core.Hashtable]] | Hashtable with room name as keys and [[NET.worlds.scape.Room]]s as values |
+| All | Explicit [[Hashtable|NET.worlds.core.Hashtable]] | Hashtable with room name as keys and [[Room|NET.worlds.scape.Room]]s as values |
 | World == 4 | Integer | Timeout Age. 60000 and 900000 get read as 15000 |

@@ -10,4 +10,10 @@
 | All | Integer | Sky Color |
 | All | Boolean | Null indicator: False = Skip next entry |
 | All | Integer | Ground Color |
-| 0-3 | MaybeNull  Unknown, discarded |
+| 0-3 | MaybeNull | Unknown, discarded |
+| All | Explicit [[Point3|NET.worlds.scape.Point3]] | Default Position |
+| All | Explicit [[Point3|NET.worlds.scape.Point3]] | Default Orientation Axis |
+| All | Float | Default Orientation |
+| 0 | Vector | Unknown, discarded |
+| 5-7 | Explicit [[Point3|NET.worlds.scape.Point3]] | Light Position |
+| 5-7 | Float | Light Color |

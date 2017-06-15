@@ -17,3 +17,8 @@
 | 0 | Vector | Unknown, discarded |
 | 5-7 | Explicit [[Point3|NET.worlds.scape.Point3]] | Light Position |
 | 5-7 | Float | Light Color |
+| All | Explicit [[RoomEnvironment|NET.worlds.scape.RoomEnvironment]] | Environment |
+| 3-7 | Explicit [[RoomEnvironment|NET.worlds.scape.RoomEnvironment]] | Infinite Background |
+| 6-7 | String | Teleport Chain |
+| 6-7 | Integer | Teleport Interval |
+| 7 | Boolean | Allow Teleport |

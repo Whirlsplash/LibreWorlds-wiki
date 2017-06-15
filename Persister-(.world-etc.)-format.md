@@ -27,7 +27,9 @@ Assuming empty class and object table, an object consists of an object ID (integ
 
 If the Object ID has been seen before within this file, reuse the associated object, instead of proceeding to read class and data. In this way, the same object can be contained by multiple other objects, and the Persister format does NOT form a tree.
 
-Note that objects always indicate what class they are, even if it could be inferred, e.g., [[NET.worlds.scape.World]] expects a [[NET.worlds.core.Hashtable]], but that Hashtable must indicate that it is a Hashtable. This is the opposite of behavior for primitives, which are always implicit.
+## Explicit vs Implicit
+
+Objects often contain other objects. Even if object A (e.g. World) is expected to only contain B (e.g. a Hashtable), B will still have the class ID and potentially class name. This will be noted in these docs as "Explicit" as a reminder. There are exceptions where there is no object ID and class name (e.g. inheritance). These will be noted as "Implicit".
 
 ## Example from GroundZero
 

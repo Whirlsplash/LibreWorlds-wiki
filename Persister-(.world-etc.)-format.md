@@ -9,7 +9,6 @@ Worlds generally uses the format described by [Java's DataInput](https://docs.or
 * String: Starts with a byte, where 0x01 means the string is null (and the next byte is for the next item) and 0x00 means non-null. If non-null, next 2 bytes are the length in number of bytes (big-endian). Following is the actual string data, in modified UTF-8. (The bytes after the non-null indicator are merely read by DataInput).
 * Boolean: 1 byte, 0x00 for false 0x01 for true.
 * Byte, Double, Long, Int, Float, Short: Self-explanatory
-* Arrays, vectors, maybenulls: Explained below 
 * MaybeNull: 1 byte as a null indicator (0x01 for null, 0x00 for non-null), followed by an object (as described below) for non-null
 * Class: A Class ID, then if the Class ID has not been encountered before in this file, a String for the class name. If the Class ID has been encountered before, the class name is omitted and the prior name assumed.
 * Vector: Integer representing number of objects, followed by that number of objects.

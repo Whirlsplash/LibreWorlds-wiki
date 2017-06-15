@@ -1,5 +1,7 @@
 A World. Main object in .world files. Synonyms: "NET.worlds.network.World", "World"
 
+`NET.worlds.scape.World` is a subtype of `NET.worlds.scape.SuperRoot`.
+
 Note that as with all objects, there will first be an object ID, then a class ID, then if the class ID hasn't been seen before (usually the case with Worlds) the class name "NET.worlds.scape.World" (or a synonym).
 
 | Version | Type | Name/Description |

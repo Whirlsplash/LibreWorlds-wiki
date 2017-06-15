@@ -6,7 +6,7 @@ Note that as with all objects, there will first be an object ID, then a class ID
 | ---     | ---  | --- |
 | All | Version for World | Version for World, 0-13 |
 | World >= 1 | Version for SuperRoot | Version for SuperRoot, 0-2 |
-| All | String | World name |
+| All | String | World name (part of SuperRoot in World >=1. Move this to Implicit SuperRoot) |
 | World >= 1, SuperRoot == 1 | MaybeNull | Unknown, discarded |
 | All | String | Default room name |
 | World <= 6 | String | Server URL, read in an "old" way, might need further description. "UNSHARED" equivalent to null |

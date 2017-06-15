@@ -25,6 +25,8 @@ Worlds generally uses the format described by [Java's DataInput](https://docs.or
 
 Assuming empty class and object table, an object consists of an object ID (integer), a class (a class ID (integer) then class name (String)), and then data as determined by the specific class.
 
+If the Object ID has been seen before, reuse the associated object, instead of proceeding to read class and data. In this way, the same object can be contained by multiple other objects, and the Persister format does NOT form a tree.
+
 ## Example from GroundZero
 
 | "PERSISTER Worlds, Inc." | Persister version | Object ID | Class ID | Class name |

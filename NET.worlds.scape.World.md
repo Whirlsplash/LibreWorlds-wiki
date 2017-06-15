@@ -11,7 +11,7 @@ A World. Main object in .world files. Synonyms: "NET.worlds.network.World", "Wor
 | World == 7 | String | Server URL. If null, assumed to a default value, otherwise, World considered to be multiuser |
 | World >= 8 | String | Server URL. |
 | World == 2 | String | Unknown, discarded |
-| World >= 5 | Int | Timeout Age |
+| World >= 5 | Int | Timeout Age. Note that in versions 8 and below, a Timeout Age of 60000 is converted to 15000 |
 | World == 6 or 7 | Boolean | Unknown, discarded |
 | World >= 8 | Boolean | Multiuser |
 | World >= 10 | Boolean | Courtesy VIP |
@@ -22,5 +22,5 @@ A World. Main object in .world files. Synonyms: "NET.worlds.network.World", "Wor
 | World >= 12 | String | Banner URL |
 | World == 13 | Boolean | Has Clickable Ad Cube |
 | World == 13 | Boolean | Ad Cube Format Is Gif |
-| World == 13 | Boolean | Ad Cube Base URL |
-| World == 13 | Boolean | Default Ad Cube URL |
+| World == 13 | String | Ad Cube Base URL |
+| World == 13 | String | Default Ad Cube URL |

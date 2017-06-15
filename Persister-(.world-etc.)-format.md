@@ -31,6 +31,10 @@ If the Object ID has been seen before within this file, reuse the associated obj
 
 Objects often contain other objects. Even if object A (e.g. World) is expected to only contain B (e.g. a Hashtable), B will still have the class ID and potentially class name. This will be noted in these docs as "Explicit" as a reminder. There are exceptions where there is no object ID and class name (usually because of an is-a relationship). These will be noted as "Implicit".
 
+## Subtyping
+
+Some classes are subtypes of others. For example, [[WrStaircase|NET.worlds.scape.WrStaircase]] is a subtype of [[Room|NET.worlds.scape.Room]]. This means that WrStaircase can be used when an Explicit (not Implicit) Room is expected.
+
 ## Example from GroundZero
 
 | "PERSISTER Worlds, Inc." | Persister version | Object ID | Class ID | Class name |

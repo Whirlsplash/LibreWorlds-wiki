@@ -13,7 +13,7 @@ Worlds generally uses the format described by [Java's DataInput](https://docs.or
 * MaybeNull: 1 byte as a null indicator (0x01 for null, 0x00 for non-null), followed by an object (as described below) for non-null
 * Class: A Class ID, then if the Class ID has not been encountered before in this file, a String for the class name. If the Class ID has been encountered before, the class name is omitted and the prior name assumed.
 * Array: 
-* "Version for X" (not applicable to Persister version): For the first instance for a given X, this is an integer. Otherwise it is omitted and the prior value assumed. Note that X is usually, but not always, a class.
+* "Version for X" (not applicable to Persister version): For the first instance for a given X, this is an integer. Otherwise it is omitted and the prior value assumed. Note that X is usually, but not always, a class. Note that for Persister version 1, "versions" are always 0 and never read from the file.
 
 # Header and footer
 

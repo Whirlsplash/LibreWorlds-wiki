@@ -13,7 +13,7 @@ Worlds generally uses the format described by [Java's DataInput](https://docs.or
 * MaybeNull: 1 byte as a null indicator (0x01 for null, 0x00 for non-null), followed by an object (as described below) for non-null
 * Class: A Class ID, then if the Class ID has not been encountered before in this file, a String for the class name. If the Class ID has been encountered before, the class name is omitted and the prior name assumed.
 * Array: 
-* "Version for X" (not applicable to Persister version): For the first instance for a given X, this is an integer. Otherwise it is omitted and the prior value assumed. Note that X is usually, but not always, a class. Note that for Persister version 1, "versions" are always 0 and never read from the file.
+* "Version for X" (not applicable to Persister version): For the first instance for a given X within this file, this is an integer. Otherwise it is omitted and the prior value assumed. Note that X is usually, but not always, a class. Note that for Persister version 1, "versions" are always 0 and never read from the file.
 
 # Header and footer
 
@@ -25,7 +25,7 @@ Worlds generally uses the format described by [Java's DataInput](https://docs.or
 
 Assuming empty class and object table, an object consists of an object ID (integer), a class (a class ID (integer) then class name (String)), and then data as determined by the specific class.
 
-If the Object ID has been seen before, reuse the associated object, instead of proceeding to read class and data. In this way, the same object can be contained by multiple other objects, and the Persister format does NOT form a tree.
+If the Object ID has been seen before within this file, reuse the associated object, instead of proceeding to read class and data. In this way, the same object can be contained by multiple other objects, and the Persister format does NOT form a tree.
 
 ## Example from GroundZero
 

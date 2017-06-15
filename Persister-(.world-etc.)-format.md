@@ -11,7 +11,8 @@ Worlds generally uses the format described by [Java's DataInput](https://docs.or
 * Byte, Double, Long, Int, Float, Short: Self-explanatory
 * Arrays, vectors, maybenulls: Explained below 
 * MaybeNull: 1 byte as a null indicator (0x01 for null, 0x00 for non-null), followed by an object (as described below) for non-null
-* Array:  
+* Class: A Class ID, then if the Class ID has not been encountered before in this file, a String for the class name. If the Class ID has been encountered before, the class name is omitted and the prior name assumed.
+* Array: 
 * "Version for X" (not applicable to Persister version): For the first instance for a given X, this is an integer. Otherwise it is omitted and the prior value assumed. Note that X is usually, but not always, a class.
 
 # Header and footer
@@ -22,7 +23,7 @@ Worlds generally uses the format described by [Java's DataInput](https://docs.or
 
 # Objects
 
-Assuming empty class and object table, an object consists of an object ID (integer), a class ID (integer), class name (String), and then data as determined by the specific class.
+Assuming empty class and object table, an object consists of an object ID (integer), a class (a class ID (integer) then class name (String)), and then data as determined by the specific class.
 
 ## Example from GroundZero
 

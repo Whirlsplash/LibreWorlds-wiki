@@ -10,7 +10,7 @@ Worlds generally uses the format described by [Java's DataInput](https://docs.or
 * Boolean: 1 byte, 0x00 for false 0x01 for true.
 * Byte, Double, Long, Int, Float, Short: Self-explanatory
 * Arrays, vectors, maybenulls: Explained below 
-* "Version for X" (not applicable to Persister version): If a "Version for X" has already been seen, it is omitted. Otherwise, it is read as an integer. Note that X is usually, but not always, a class.
+* "Version for X" (not applicable to Persister version): For the first instance for a given X, this is an integer. Otherwise it is omitted and the prior value assumed. Note that X is usually, but not always, a class.
 
 # Header and footer
 

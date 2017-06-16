@@ -6,7 +6,7 @@ Most things are subclasses of WObject. WObject is a subclass of [[NET.worlds.sca
 | All | Implicit [[Transform|NET.worlds.scape.Transform]] | Transform |
 | All | Integer | [[WObject Flags]] |
 | 0-1 | MaybeNull | Unknown, discarded |
-| All | MaybeNullVector of Explicit WObjects | Contents |
+| All | MaybeNullVector of Explicit WObjects | Contents (unshared only) |
 | All | MaybeNullVector of Explicit [[SuperRoots|NET.worlds.scape.SuperRoot]] | Handlers |
 | 1-10 | MaybeNullVector of Explicit [[Actions|NET.worlds.scape.Action]] | Actions |
 | 3-4 | Explicit Object | Unknown, discarded |

@@ -30,7 +30,7 @@ If the Object ID has been seen before within this file, reuse the associated obj
 
 ## Explicit vs Implicit
 
-Objects often contain other objects. Even if object A (e.g. World) is expected to only contain B (e.g. a Hashtable), B will still have the class ID and potentially class name. This will be noted in these docs as "Explicit" as a reminder. There are exceptions where there is no object ID and class name (usually because of an is-a relationship). These will be noted as "Implicit".
+Objects often contain other objects. Even if object A (e.g. World) is expected to only contain B (e.g. a Hashtable), B will still have the class ID and potentially class name. This will be noted in these docs as "Explicit" as a reminder. There are exceptions where there is no object ID and class id/name (usually because of an is-a relationship). These will be noted as "Implicit".
 
 ## Subtyping
 

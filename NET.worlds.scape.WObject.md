@@ -11,3 +11,4 @@ Most things are subclasses of WObject. WObject is a subclass of [[NET.worlds.sca
 | 1-10 | MaybeNullVector of Explicit [[Actions|NET.worlds.scape.Action]] | Actions |
 | 3-4 | Explicit Object | Unknown, discarded |
 | 5-10 | MaybeNull Explicit [[BumpCalc|NET.worlds.scape.BumpCalc]] | BumpCalc. Seemingly usually null, with BumpCalc determined by the class of this WObject |
+| 4-10 | MaybeNull Explicit [[Sharer|NET.worlds.scape.Sharer]] | Sharer for shared things. |

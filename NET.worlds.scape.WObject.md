@@ -9,3 +9,5 @@ Most things are subclasses of WObject. WObject is a subclass of [[NET.worlds.sca
 | All | MaybeNullVector of Explicit WObjects | Contents |
 | All | MaybeNullVector of Explicit [[SuperRoots|NET.worlds.scape.SuperRoot]] | Handlers |
 | 1-10 | MaybeNullVector of Explicit [[Actions|NET.worlds.scape.Action]] | Actions |
+| 3-4 | Explicit Object | Unknown, discarded |
+| 5-10 | MaybeNull Explicit [[BumpCalc|NET.worlds.scape.BumpCalc]] | BumpCalc. Seemingly usually null, with BumpCalc determined by the class of this WObject |

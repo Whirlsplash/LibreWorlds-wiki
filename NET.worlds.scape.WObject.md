@@ -3,7 +3,7 @@ Most things are subclasses of WObject. WObject is a subclass of [[NET.worlds.sca
 | Version | Type | Name/Description |
 | --- | --- | --- |
 | All | Version for WObject | 0-10 |
-| All | Implicit [[Transform|NET.worlds.scape.Transform]] | Transform |
+| All | Implicit [[Transform|NET.worlds.scape.Transform]] | Transform (includes name) |
 | All | Integer | [[WObject Flags]] |
 | 0-1 | MaybeNull | Unknown, discarded |
 | All | MaybeNullVector of Explicit WObjects | Contents (unshared only) |

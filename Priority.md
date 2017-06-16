@@ -1,4 +1,4 @@
-This is a rough count of how many worlds in the default Worlds 1920 install use each listed type of Explicit Object. There are some observed oddities in the data which warrant some investigation (such as too few WObjects).
+This is a rough count of how many worlds in the default Worlds 1920 install use each listed type of Explicit Object. There are some observed oddities in the data which warrant some investigation.
 
 List generated via: ``strings `find -name "*.world"` | grep "NET.worlds.scape." | sort | uniq -c | sort -nr`` and the data fixed up.
 

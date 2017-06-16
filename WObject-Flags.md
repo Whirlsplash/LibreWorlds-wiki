@@ -6,7 +6,7 @@ ubclasses of WObject may have their own flags not used elsewhere; Certain flags 
 | `1<<1` | Bumpable |
 | `1<<2` | (Holograms only) Rough Cut |
 | `1<<2` | (Portals only) Mirrored |
-| `1<<7` | Hilight. Always saved as 0, but NOT ignored on deserialization |
+| `1<<7` | Hilight. Always saved as 0, but NOT ignored on deserialization if WObject version >= 8 |
 | `1<<14` | Ignored; internal use |
 | `1<<18` | (Rooms only) Is VIP Only |
 | `1<<19` | (Rooms only) Is VIP View Only |

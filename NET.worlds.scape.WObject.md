@@ -7,5 +7,5 @@ Most things are subclasses of WObject. WObject is a subclass of [[NET.worlds.sca
 | All | Integer | [[WObject Flags]] |
 | 0-1 | MaybeNull | Unknown, discarded |
 | All | MaybeNullVector of Explicit WObjects | Contents |
-| All | MaybeNullVector of Explicit [[Actions|NET.worlds.scape.Action]] | Actions |
-| 1-10 | MaybeNullVector of Explicit [[SuperRoots|NET.worlds.scape.SuperRoot]] | Handlers |
+| All | MaybeNullVector of Explicit [[SuperRoots|NET.worlds.scape.SuperRoot]] | Handlers |
+| 1-10 | MaybeNullVector of Explicit [[Actions|NET.worlds.scape.Action]] | Actions |

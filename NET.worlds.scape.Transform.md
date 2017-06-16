@@ -7,4 +7,4 @@ Represents a location, rotation, and scaling. Subtype of [[NET.worlds.scape.Supe
 | All | Float | X Scale. Also Y Scale and Z Scale in versions 0-1 |
 | 2 | Float | Y Scale |
 | 2 | Float | Z Scale |
-| All | 16 Floats | "Guts". A 4x4 matrix? |
+| All | 16 Floats | "Guts". A 4x4 row-major matrix |

@@ -26,6 +26,7 @@
 
 | Name | Position | Timezone |
 | - | - | - |
+| ninworlds | Tester | UTC-5 (EST/EDT) |
 
 # System Operations (Sysops)
 | Name | Position | Timezone |

@@ -21,6 +21,7 @@
 
 | Name | Position | Timezone |
 | - | - | - |
+| cake1234566 | World Builder/Avatar Crafting | UTC-5 (EST/EDT) |
 
 # Quality Assurance
 

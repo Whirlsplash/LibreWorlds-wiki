@@ -3,7 +3,7 @@
 | Name | Position | Timezone |
 | - | - | - |
 | CandyAngel | Project Leader | UTC-0 (GMT/BST) |
-| TheOnlyJoey | Consultant | UTC-1 (CET) |
+| TheOnlyJoey | Consultant | UTC+1 (CET) |
 
 # Community Support
 

@@ -13,4 +13,4 @@
 | All | Integer | Blue |
 | 2-4 | String | Name (a URL) |
 | 3-4 | Boolean | Keep Loaded |
-| All | Explicit [[Texture|NET.worlds.scape.Texture]] (absent if Name is not null) | Texture |
+| All | Explicit [subtype of] [[Texture|NET.worlds.scape.Texture]] (absent if Name is not null) | Texture |

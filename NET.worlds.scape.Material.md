@@ -1,7 +1,7 @@
 | Version | Type | Name/Description |
 | --- | --- | --- |
 | All | Version for Material | 0-4 |
-| 1-4 | Explicit [[SuperRoot|NET.worlds.scape.SuperRoot]] | SuperRoot |
+| 1-4 | Implicit [[SuperRoot|NET.worlds.scape.SuperRoot]] | SuperRoot |
 | All | Float | Ambient |
 | All | Float | Diffuse |
 | All | Float | Specular |

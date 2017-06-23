@@ -12,4 +12,4 @@
 | All | Float | V |
 | 3-4 | Float | U Offset |
 | 3-4 | Float | V Offset |
-| 4 | Float | Unknown; discarded |
+| 4 | Boolean | Unknown; discarded |

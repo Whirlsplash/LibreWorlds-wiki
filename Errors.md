@@ -24,3 +24,7 @@ Some errors that can be thrown by SESSINIT property #4 and potentially other pla
 | 104-107 | NAK_UNREACHABLE | TBD | Retries |
 | 200 | | Connected. | "Status" |
 | 201 | | Shutting down server. | "Status" |
+| 202 | | Automatically attempting to reconnect. | "Status" |
+| 203 | | Server has disconnected normally. | "Status" |
+| 204 | | Server has disconnected abnormally. | "Status" |
+| 205 | | Going into single user mode. | "Status" |

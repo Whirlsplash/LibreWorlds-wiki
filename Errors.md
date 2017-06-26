@@ -1,4 +1,4 @@
-Some errors that can be thrown by SESSINIT property #4 and potentially other places.
+Some errors that can be thrown by SESSINIT property #4, the only property of SESSEXIT, and internally within the client in some circumstances.
 
 0 and below are invalid, numbers not on the table are valid and give a message "Login error #" + the number.
 

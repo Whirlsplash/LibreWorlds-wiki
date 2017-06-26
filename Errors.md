@@ -19,7 +19,6 @@ Some errors that can be thrown by SESSINIT property #4 and potentially other pla
 | 15 | NAK_NOT_LOGGEDON | TBD | |
 | 16 | NAK_BAD_IPADDRESS | TBD | |
 | 17 | NAK_LOGGEDON | TBD | |
-| 21 | | The set of rooms you are in are quite full.
-Please wait several minutes and try again. | |
+| 21 | | The set of rooms you are in are quite full. Please wait several minutes and try again. | |
 | 100-103 | NAK_UNEXPECTED1+NAK_UNEXPECTED2 | TBD | Retries |
 | 104-107 | NAK_UNREACHABLE1+NAK_UNREACHABLE2+NAK_UNREACHABLE3+NAK_UNREACHABLE4 | TBD | Retries |

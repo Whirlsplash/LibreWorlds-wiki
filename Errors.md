@@ -9,7 +9,7 @@ Some errors that can be thrown by SESSINIT property #4 and potentially other pla
 | 5 | NAK_FATAL | TBD | Retries |
 | 6 | NAK_BAD_PROTOCOL | TBD | |
 | 7 | NAK_BAD_CLIENTSW | TBD | |
-| 8 | | AssertionError! (Crash?) |
+| 8 | | | AssertionError! (Crash?) |
 | 9 | NAK_BAD_SERIAL | TBD | |
 | 10 | NAK_TAKEN_SERIAL | TBD | |
 | 11 | NAK_TAKEN_USER | TBD | |

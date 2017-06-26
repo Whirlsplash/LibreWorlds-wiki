@@ -1,4 +1,6 @@
-Some errors that can be thrown by SESSINIT property #4 and potentially other places
+Some errors that can be thrown by SESSINIT property #4 and potentially other places.
+
+0 and below are invalid, numbers not on the table are valid and give a message "Login error #" + the number.
 
 | Number | Name | Error message | Notes |
 | --- | --- | --- | --- |

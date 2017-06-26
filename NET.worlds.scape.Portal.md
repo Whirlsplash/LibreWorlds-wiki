@@ -9,4 +9,4 @@ Portal is a subtype of [[Rect|NET.worlds.scape.Rect]].
 | 0-5 | Float | X scale |
 | 0-5 | Float | "Y" scale (but actually discarded) |
 | 0-5 | Float | Z scale |
-| 0-7 | Boolean | If true, [[WObject flag|WObject Flags]] `1<<2` loaded as 1 |
+| 0-7 | Boolean | If true, [[WObject flag|WObject Flags]] `1<<2` (mirrored) loaded as 1 |

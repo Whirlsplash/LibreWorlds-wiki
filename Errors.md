@@ -22,3 +22,5 @@ Some errors that can be thrown by SESSINIT property #4 and potentially other pla
 | 21 | | The set of rooms you are in are quite full. Please wait several minutes and try again. | | |
 | 100-103 | NAK_UNEXPECTED | TBD | Retries |
 | 104-107 | NAK_UNREACHABLE | TBD | Retries |
+| 200 | | Connected. | "Status" |
+| 201 | | Shutting down server. | "Status" |

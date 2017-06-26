@@ -11,7 +11,7 @@ Some errors that can be thrown by SESSINIT property #4 and potentially other pla
 | 7 | NAK_BAD_CLIENTSW | TBD | |
 | 8 | | AssertionError! (Crash?) |
 | 9 | NAK_BAD_SERIAL | TBD | |
-| 10 | NAK_TAKEN_SERIAL1 + NAK_TAKEN_SERIAL2 | TBD | |
+| 10 | NAK_TAKEN_SERIAL | TBD | |
 | 11 | NAK_TAKEN_USER | TBD | |
 | 12 | NAK_NO_SUCH_USER | TBD | |
 | 13 | NAK_BAD_PASSWORD | TBD | |

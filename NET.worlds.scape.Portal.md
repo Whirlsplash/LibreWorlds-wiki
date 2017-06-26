@@ -10,3 +10,7 @@ Portal is a subtype of [[Rect|NET.worlds.scape.Rect]].
 | 0-5 | Float | "Y" scale (but actually discarded) |
 | 0-5 | Float | Z scale |
 | 0-7 | Boolean | If true, [[WObject flag|WObject Flags]] `1<<2` (mirrored) loaded as 1 |
+| 4-7 | String | Far side portal name |
+| 0-7 | MaybeNull Explicit Portal | Far side Portal |
+| 1 | String | Name (if not empty string) |
+| 3-7 | String | URL for far side World. If version 3-6, may potentially assume ".world" at end if needed (no "." after "/") |

@@ -4,3 +4,5 @@ Some errors that can be thrown by SESSINIT property #4 and potentially other pla
 | --- | --- | --- | --- |
 | 1 | NAK_BAD_USER | TBD | |
 | 2 | NAK_MAX_ORDINARY | TBD | |
+| 3 | NAK_MAX_PRIORITY | TBD | |
+| 4 | | | AssertionError! (Crash?) |

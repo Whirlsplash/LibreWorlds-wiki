@@ -3,8 +3,8 @@ Some errors that can be thrown by SESSINIT property #4 and potentially other pla
 | Number | Name | Error message | Notes |
 | --- | --- | --- | --- |
 | 1 | NAK_BAD_USER | Illegal user name.  Please enter a user name that is 2 to 16 alpha & numeric characters long. | |
-| 2 | NAK_MAX_ORDINARY | TBD | |
-| 3 | NAK_MAX_PRIORITY | TBD | |
+| 2 | NAK_MAX_ORDINARY | Sorry, the world is full.  Please try again in a few minutes. | |
+| 3 | NAK_MAX_PRIORITY | Sorry, the world is full of priority users. | |
 | 4 | | | AssertionError! (Crash?) |
 | 5 | NAK_FATAL | TBD | Retries |
 | 6 | NAK_BAD_PROTOCOL | TBD | |

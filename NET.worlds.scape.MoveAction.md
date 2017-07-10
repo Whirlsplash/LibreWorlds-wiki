@@ -12,4 +12,7 @@
 | All | Explicit [[Point3|NET.worlds.scape.Point3]] | Start Scale |
 | All | Explicit [[Point3|NET.worlds.scape.Point3]] | Extent Spin |
 | All | Explicit [[Point3|NET.worlds.scape.Point3]] | Start Spin |
+| All | Float | Extent Rotation |
+| All | Float | Start Rotation |
+| 5-6 | Boolean | Kill Others |
 

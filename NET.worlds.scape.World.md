@@ -8,7 +8,7 @@ Note that as with all objects, there will first be an object ID, then a class ID
 | ---     | ---  | --- |
 | All | Version for World | Version for World, 0-13 |
 | 0 | String | World name |
-| >= 1 | Implicit [[SuperRoot|NET.worlds.scape.SuperRoot]] | World name |
+| >= 1 | Implicit [[SuperRoot\|NET.worlds.scape.SuperRoot]] | World name |
 | All | String | Default room name |
 | <= 6 | String | Server URL, read in an "old" way, might need further description. "UNSHARED" equivalent to null |
 | == 7 | String | Server URL. If null, assumed to a default value, otherwise, World considered to be multiuser |
@@ -27,5 +27,5 @@ Note that as with all objects, there will first be an object ID, then a class ID
 | == 13 | Boolean | Ad Cube Format Is Gif |
 | == 13 | String | Ad Cube Base URL |
 | == 13 | String | Default Ad Cube URL |
-| All | Explicit [[Hashtable|NET.worlds.core.Hashtable]] | Hashtable with room name as keys and [[Room|NET.worlds.scape.Room]]s as values |
+| All | Explicit [[Hashtable\|NET.worlds.core.Hashtable]] | Hashtable with room name as keys and [[Room\|NET.worlds.scape.Room]]s as values |
 | == 4 | Integer | Timeout Age. 60000 and 900000 get read as 15000 |
